@@ -5,7 +5,7 @@ int main()
 {
     cout << "\033[2J\033[1;1H";
     cout << "This programme gives you the numbers of elements have maximal summ\n";
-    vector<int> vec = {-13, 7, 2, -12, 6, 5, 9, 1};
+    vector<int> vec = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
     int max_sum = 0;
     int sum = 0;
     int start_index = 0;
