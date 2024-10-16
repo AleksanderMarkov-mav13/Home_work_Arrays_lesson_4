@@ -18,6 +18,11 @@ int main()
     while (true) {
         cout << "Input the element to add into array\n";
         cin >> elem;
+        if (cin.fail())
+        {
+            cerr << "Ошибка: введено не число!" << std::endl;
+            return 1;
+        }
         if (elem == -2) break;
         if (elem != -1) {
             if (vec.size () == 0) {
